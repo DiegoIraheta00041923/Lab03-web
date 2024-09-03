@@ -1,11 +1,11 @@
 const calculateFactorial = (a) => {
-    var a = n;
+    var n = a;
     var i = n-1;
     while(i > 1){
         a*=i;
         i--;
     }
-    alert("El factorial de" + a + "es: " + n);    
+    alert("El factorial de" + n + "es: " + a);    
 }
 
 const requestNumber = () => {
