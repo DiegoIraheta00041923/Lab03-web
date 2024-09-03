@@ -1,19 +1,20 @@
 const calculateFactorial = (a) => {
-    
+    var a = n;
+    var i = n-1;
+    while(i > 1){
+        a*=i;
+        i--;
+    }
+    alert("El factorial de" + a + "es: " + n);    
 }
 
 const requestNumber = () => {
     a = parseInt(window.prompt("Introduzca un número: "));
-    if(isNaN(a)){
-        alert("Introduzca numero correcto");
-        requestNumber();
-    }else{
-
-    }
+    calculateFactorial(a);
 }
 
 const main = () => {
-    //Code
+    requestNumber();
 }
 
 main();
